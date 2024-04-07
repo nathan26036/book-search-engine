@@ -31,8 +31,6 @@ const typeDefs = `
         description: String
         bookId: String
         image: String
-        forSale: String
-        link: String
         title: String
     }
     type Mutation {

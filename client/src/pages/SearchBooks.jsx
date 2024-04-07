@@ -72,11 +72,11 @@ const SearchBooks = () => {
       // get token
       const token = Auth.loggedIn() ? Auth.getToken() : null;
   
-      console.log(token)
+      console.log(Auth.loggedIn())
       if (!token) {
         return false;
       }
-      
+      //Cant figure out why it is giving an authentication error
       try {
         await saveBook({
           variables: { book: SavedBookInput },
