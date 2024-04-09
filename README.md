@@ -1,4 +1,4 @@
-# book-search-engine
+# Book Search Engine
 
 The goal of this project is to refactor a fully functioning Google Books API search engine that is currently using a restful api to use graphql api and have an apollo server.
 
